@@ -15,7 +15,7 @@ public class Program {
 
 		//set.remove("Tablet");
 		//set.removeIf(x -> x.length() >= 6); // Remova item x tal que -> x.length >= 3
-		set.removeIf(x -> x.charAt(0)== 'T');
+		set.removeIf(x -> x.charAt(0)== 'T');// remove TV e o Tablet
 		for (String p : set) {
 
 			System.out.println(p);
